@@ -11,7 +11,7 @@ const ProjectDisplay = () => {
   return (
     <div className="project">
       <h1> {project.name}</h1>
-      <img src={project.image} width="600" height="300"/>
+      <img src={project.image} alt='images' width="600" height="300"/>
       <p>
         <b>Skills:</b> {project.skills}
       </p>

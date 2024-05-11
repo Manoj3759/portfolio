@@ -8,8 +8,6 @@ import Footer from './components/Footer';
 import Contact from './pages/Contact';
 import "../src/style/app.css"
 import ProjectDisplay from './pages/ProjectDisplay';
-import errorPage from './pages/errorPage';
-
 
 const App = () => {
   return (
@@ -22,7 +20,6 @@ const App = () => {
           <Route path='/project/:id' element={<ProjectDisplay/>} />
           <Route path='/experience' element={<Exp/>} />
           <Route path='/contact' element={<Contact/>} />
-          <Route path='*' element={<errorPage/>}/>
         </Routes>
          <Footer/>
       </Router>
