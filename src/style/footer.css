@@ -1,0 +1,34 @@
+.root{
+  --ICON-COLOR:#f0f0f0;
+  --BG-COLOR:#21325e;
+}
+
+.footer {
+    width: 100%;
+    height: 120px;
+    background: var(--BG-COLOR);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    margin-top: 200px;
+  }
+  
+  .socialMedia svg {
+    color: var(--ICON-COLOR);
+    margin: 15px;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  
+  .footer p {
+    color: var(--ICON-COLOR);
+    margin-bottom: 20px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .footer svg {
+      font-size: 50px;
+    }
+  }

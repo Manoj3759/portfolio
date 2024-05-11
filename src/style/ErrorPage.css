@@ -1,0 +1,30 @@
+.root {
+    --PRIMARY-COLOR: #3e497a;
+    --BG-COLOR: #21325e;
+    --ICON-COLOR: #f0f0f0;
+    --SECONDARY-COLOR: #e9d35b;
+    --TRINARY-COLOR: #1b213e;
+}
+  
+  .content {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--BG-COLOR);
+    color: var(--ICON-COLOR);
+    font-family: Arial, sans-serif;
+  }
+  
+  .error-heading {
+    font-size: 36px;
+    margin-bottom: 16px;
+    color: var(--PRIMARY-COLOR);
+  }
+  
+  .error-description {
+    font-size: 18px;
+    color: var(--TRINARY-COLOR);
+  }
+  

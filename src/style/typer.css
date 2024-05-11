@@ -1,0 +1,14 @@
+.root{
+    --PRIMARY-COLOR:#3e497a;
+    --BG-COLOR:#21325e;
+    --ICON-COLOR:#F0F0F0;
+    --SECONDARY-COLOR:#e9d35b;
+    --TRINARY-COLOR:#1b213e;
+  }
+.typer-container {
+    font-size: 1.05rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+    color: var(--SECONDARY-COLOR);
+  }

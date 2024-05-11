@@ -1,0 +1,58 @@
+:root{
+  --TRINARY-COLOR:#1b213e;
+  --SECONDARY-COLOR:#e9d35b;
+  --ICON-COLOR:#FFF
+}
+
+button {
+    aspect-ratio: 1/1;
+    width: 40px;
+    border-radius: 50%;
+    color:var(--TRINARY-COLOR);
+    text-align: center;
+  }
+
+  .show {
+    display: inline-block;
+    flex-direction: column;
+    gap: 1rem;
+    aspect-ratio: 3/1;
+    width: 9vw;
+    border: 2px solid rgba(255, 255, 255, 0.361);
+    border-radius: 0 25px;
+    background-color:rgba(255, 255, 255, 0.361) ;
+  }
+  
+  .hide {
+    display: none;
+  }
+
+
+ .gmail,.darkmode,.resume {
+    font-size: 30px;
+    padding: 8px;
+    border: none;
+    background-color:transparent;
+    cursor: pointer;
+    color:var(--ICON-COLOR);
+  }
+  
+  .resume:hover,
+  .gmail:hover,
+  .darkmode:hover {
+    color: var(--SECONDARY-COLOR);
+  }
+
+
+  @media only screen and (max-width: 600px){
+    .show {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+      aspect-ratio: 3/1;
+      width: 9vw;
+      border: 2px solid rgba(255, 255, 255, 0.361);
+      border-radius: 0 25px;
+      background-color:rgba(255, 255, 255, 0.361) ;
+    }
+  }

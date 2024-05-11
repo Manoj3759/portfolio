@@ -1,0 +1,56 @@
+.root{
+  --PRIMARY-COLOR:#3e497a;
+  --BG-COLOR:#21325e;
+  --ICON-COLOR:#F0F0F0;
+  --SECONDARY-COLOR:#e9d35b;
+  --TRINARY-COLOR:#1b213e;
+}
+
+.contact{
+    background-color: var(--BG-COLOR);
+    width: 100%;
+    height: calc(100vh - 400px);
+    color: var(--ICON-COLOR);
+}
+
+.contacthead {
+    color: var(--SECONDARY-COLOR);
+    padding-top: 5rem;
+    text-align: center;
+    font-size: 3.57rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    background-color: var(--BG-COLOR);
+
+  }
+  .contactpara {
+    color: var(--ICON-COLOR);
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 1.35rem;
+    letter-spacing: 1px;
+    padding-bottom: 1rem;
+    background-color: var(--BG-COLOR);
+
+  }
+  .btn{
+    background-color: var(--BG-COLOR);
+  }
+  .contactbtn {
+    color: var(--TRINARY-COLOR);
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 50px;
+    border: solid 2px ;
+    border-radius: 25px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 3rem;
+  }
+  .contactbtn:hover {
+    background-color: rgba(51, 51, 51, 0.2);
+    color: var(--ICON-COLOR);
+    cursor: pointer;
+  }
